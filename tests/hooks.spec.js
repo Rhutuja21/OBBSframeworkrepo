@@ -2,7 +2,7 @@ import { test } from "@playwright/test";
 
 test.beforeAll('',()=>{
 
-    
+    console.log('before all connection to database');
 
 })
 test.beforeEach('', ()=>{
